@@ -1,0 +1,774 @@
+<html>
+  <head>
+    <title>McDonald</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta content="text/html; charset=iso-8859-2" http-equiv="Content-Type" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      body {
+        font-family: "Montserrat", sans-serif;
+        margin: 0;
+      }
+
+      .a2 {
+        position: absolute;
+        top: 860px;
+        width: 430px;
+        color: #0f0f0f;
+        font-size: 22px;
+        left: -10px;
+        padding: 16px 10px;
+        background-color: #ffbc0d;
+        height: 70px;
+        border-radius: 0 0 70px 0;
+        text-align: center;
+      }
+
+      .a4 {
+        position: absolute;
+        top: 1054px;
+        font-size: 18px;
+        line-height: 140%;
+        color: #000000;
+        font-weight: 400;
+        width: 405px;
+        margin-left: 40px;
+      }
+
+      .a5 {
+        position: absolute;
+        top: 1161px;
+        font-weight: bold;
+        font-size: 18px;
+        margin-left: 35px;
+      }
+
+      .heading {
+        position: absolute;
+        top: 1201px;
+        left: 38px;
+        font-weight: bold;
+        font-size: 18px;
+        color: #db0007;
+      }
+
+      .parra {
+        position: absolute;
+        top: 1230px;
+        left: 38px;
+        font-weight: bold;
+        font-size: 18px;
+      }
+
+      .slid {
+        position: absolute;
+        top: 1410px;
+        height: 60px;
+        width: 262px;
+        left: 38px;
+        display: flex;
+        -webkit-box-align: center;
+        align-items: center;
+        margin-right: 45px;
+        padding: 15px;
+        background: rgb(250, 247, 247);
+      }
+
+      .slide {
+        position: absolute;
+        top: 1410px;
+        height: 60px;
+        width: 262px;
+        left: 382px;
+        display: flex;
+        -webkit-box-align: center;
+        align-items: center;
+        margin-right: 45px;
+        padding: 15px;
+        background: rgb(250, 247, 247);
+      }
+
+      .slidee {
+        position: absolute;
+        top: 1410px;
+        height: 60px;
+        width: 262px;
+        left: 735px;
+        display: flex;
+        -webkit-box-align: center;
+        align-items: center;
+        margin-right: 45px;
+        padding: 15px;
+        background: rgb(250, 247, 247);
+      }
+
+      h3 {
+        position: absolute;
+        top: 980px;
+        color: rgb(126, 110, 90);
+        font-size: 25px;
+        margin-top: 25px;
+        left: 35px;
+      }
+
+      h4 {
+        position: absolute;
+        top: 1768px;
+        left: 577px;
+        z-index: 1;
+        color: #db0007;
+        font-size: 20px;
+      }
+
+      h5 {
+        position: absolute;
+        top: 1762px;
+        left: 873px;
+        z-index: 1;
+        color: #db0007;
+        font-size: 20px;
+      }
+
+      h6 {
+        position: absolute;
+        top: 1751px;
+        left: 1196px;
+        z-index: 1;
+        color: #db0007;
+        font-size: 20px;
+      }
+
+      h7 {
+        position: absolute;
+        top: 2064px;
+        left: 711px;
+        z-index: 1;
+        color: #db0007;
+        font-size: 20px;
+        font-weight: bold;
+      }
+
+      h8 {
+        position: absolute;
+        top: 2064px;
+        left: 1084px;
+        z-index: 1;
+        color: #db0007;
+        font-size: 20px;
+        font-weight: bold;
+      }
+
+      .d2 .nav2 {
+        display: flex;
+        position: absolute;
+        list-style-type: none;
+        top: 800px;
+        left: 100px;
+        gap: 20px;
+        text-decoration: none;
+      }
+
+      .nav2 li {
+        font-size: 25px;
+        font-weight: bolder;
+        color: gray;
+      }
+
+      .nav2 li:hover {
+        color: #db0007;
+        text-decoration: underline;
+      }
+
+      .img {
+        position: absolute;
+        top: 870px;
+        right: 100px;
+        z-index: 2;
+      }
+
+      .img img {
+        width: 601px;
+        height: 447px;
+      }
+
+      .mySlides {
+        display: none;
+      }
+
+      .con {
+        width: 100%;
+        height: 797px;
+        position: absolute;
+        left: 0;
+        background-color: #ffffff;
+        top: 306%;
+      }
+
+      .con3 {
+        width: 100%;
+        height: 500px;
+        position: absolute;
+        left: 0;
+        top: 418%;
+      }
+
+      .con4 {
+        width: 100%;
+        height: 797px;
+        position: absolute;
+        left: 0;
+        background-color: #ffffff;
+        top: 520%;
+      }
+      .end {
+        position: absolute;
+        top: 640%;
+        height: 230px;
+        width: 100%;
+        background-color: #ebebec;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="a1" style="width: 100%">
+      <img
+        class="mySlides"
+        src="image/mcdeal1.jpg"
+        style="
+          height: 800px;
+          width: 100%;
+          top: 0px;
+          background-position: center;
+          overflow: hidden;
+        "
+      />
+      <img
+        class="mySlides"
+        src="image/value99-1.jpg"
+        style="
+          height: 800px;
+          width: 100%;
+          top: 0px;
+          background-position: center;
+          overflow: hidden;
+        "
+      />
+      <img
+        class="mySlides"
+        src="image/kebab_rolls.jpg"
+        style="
+          height: 800px;
+          width: 100%;
+          top: 0px;
+          background-position: center;
+          overflow: hidden;
+        "
+      />
+    </div>
+
+    <div class="d2">
+      <div class="nav2">
+        <li>Burgers & Wrap</li>
+        <li>Snacks & Sides</li>
+        <li>Desserts</li>
+        <li>Beverages</li>
+      </div>
+    </div>
+
+    <div class="img">
+      <img src="image/veg-surprise-burger-1.webp" alt="burger" />
+    </div>
+
+    <div class="a2">
+      <h2>Veg Surprise Burger</h2>
+    </div>
+    <div class="a3">
+      <h3>A surprise that will leave you wide-eyed.</h3>
+    </div>
+
+    <div class="a4">
+      <p>
+        A scrumptious potato patty topped with a delectable Italian herb sauce
+        and shredded onions placed between perfectly toasted buns.
+      </p>
+    </div>
+    <div class="a5">
+      <p>Serving Size:132g</p>
+    </div>
+    <img
+      src="image/jjcut.png"
+      style="
+        position: absolute;
+        height: 544px;
+        width: 630px;
+        top: 87%;
+        left: 900px;
+      "
+    />
+
+    <div class="heading">
+      <p>Allergen Warning! Contains:</p>
+    </div>
+    <div class="parra">
+      <p>Cereal containing gluten, Milk, Soya</p>
+    </div>
+    <div class="slid">
+      <img
+        src="image/cate-thumb-640-Quarter-Pounder-2023.png"
+        style="
+          position: absolute;
+          height: 113px;
+          width: 82px;
+          left: 3px;
+          top: -38px;
+          background-size: contain;
+          background-position: center;
+        "
+      />
+      <p style="position: absolute; left: 94px; font-weight: bold">
+        Butter Chicken Grilled Burger
+      </p>
+    </div>
+    <div class="slide">
+      <img
+        src="image/112.webp"
+        style="
+          position: absolute;
+          height: 57px;
+          width: 82px;
+          left: 10px;
+          top: 14px;
+          background-size: contain;
+          background-position: center;
+        "
+      />
+      <p style="position: absolute; left: 118px; font-weight: bold">
+        Veg Surprise Burger
+      </p>
+    </div>
+    <div class="slidee">
+      <img
+        src="image/113.jpg"
+        style="
+          position: absolute;
+          height: 57px;
+          width: 82px;
+          left: 10px;
+          top: 14px;
+          background-size: contain;
+          background-position: center;
+        "
+      />
+      <p style="position: absolute; left: 115px; font-weight: bold">
+        McAloo Tikki Burger
+      </p>
+    </div>
+
+    <div class="a7">
+      <h4>
+        Discover
+        <br />
+        your kids
+        <br />
+        musical talent
+      </h4>
+    </div>
+    <div class="a8">
+      <h5>
+        Create
+        <br />
+        happy moments
+        <br />
+        with your little ones
+      </h5>
+    </div>
+
+    <div class="a9">
+      <h6>
+        Explore our
+        <br />
+        animated books
+        <br />
+        with your kid
+      </h6>
+    </div>
+    <div class="a10">
+      <h7>
+        Discover our
+        <br />
+        collection of
+        <br />
+        interactive books
+      </h7>
+    </div>
+    <div class="a11">
+      <h8>
+        Discover our
+        <br />
+        books as they
+        <br />
+        come to life
+      </h8>
+    </div>
+    <div class="meal app">
+      <img
+        src="image/happy-meal-logo2x-compressor.webp"
+        style="
+          position: absolute;
+          top: 1552px;
+          height: 180px;
+          left: 160px;
+          z-index: 1;
+        "
+      />
+      <p
+        style="
+          position: absolute;
+          top: 2067px;
+          font-size: 18px;
+          font-weight: bold;
+          color: #db0007;
+          left: 185px;
+          z-index: 2;
+        "
+      >
+        Download App From
+      </p>
+      <a
+        href="https://play.google.com/store/apps/details?id=com.mcdonalds.mobileapp"
+      >
+        <img
+          src="image/images icon.png"
+          style="
+            position: absolute;
+            top: 2130px;
+            height: 6%;
+            left: 185px;
+            z-index: 1;
+          "
+        />
+      </a>
+    </div>
+
+    <div class="happy meal video">
+      <video
+        class="background-video"
+        autoplay
+        loop
+        muted
+        playsinline
+        style="
+          position: absolute;
+          left: -38%;
+          top: 242%;
+          height: 50%;
+          width: 110%;
+          z-index: 1;
+        "
+      >
+        <source
+          src="https://mcdindia.b-cdn.net/app-download.mp4"
+          style="
+            margin: 0;
+            padding: 0;
+            text-decoration: none;
+            -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+          "
+        />
+      </video>
+    </div>
+    <img
+      src="image/bg-happy-meal-app2x.webp"
+      style="position: absolute; height: 870px; top: 1546px; left: 77px"
+    />
+
+    <img
+      src="image/1md.webp"
+      style="
+        position: absolute;
+        top: 1632px;
+        height: 142px;
+        left: 490px;
+        border-radius: 82px;
+      "
+    />
+
+    <img
+      src="image/2d.jpg"
+      style="
+        position: absolute;
+        top: 1632px;
+        height: 142px;
+        left: 797px;
+        border-radius: 82px;
+      "
+    />
+
+    <img
+      src="image/book.jpg"
+      style="
+        position: absolute;
+        top: 1632px;
+        height: 142px;
+        left: 1113px;
+        border-radius: 82px;
+      "
+    />
+
+    <img
+      src="image/download.jpg"
+      style="
+        position: absolute;
+        top: 1910px;
+        left: 646px;
+        height: 142px;
+        border-radius: 82px;
+      "
+    />
+
+    <img
+      src="image/big.jpg"
+      style="
+        position: absolute;
+        top: 1910px;
+        left: 1048px;
+        height: 142px;
+        border-radius: 82px;
+      "
+    />
+    <div class="con">
+      <div
+        style="
+          background-color: #ffbc0d;
+          width: 100%;
+          height: 66px;
+          position: absolute;
+        "
+      ></div>
+      <img
+        src="image/border1.jpg"
+        alt=""
+        style="width: 750px; top: 66px; position: absolute; height: 60px"
+      />
+      <img
+        src="image/symbol.png"
+        alt=""
+        style="position: absolute; top: 150px; left: 100px"
+      />
+      <div
+        class="con2"
+        style="
+          position: absolute;
+          top: 240px;
+          left: 100px;
+          width: 548px;
+          font-size: 31px;
+        "
+      >
+        <h1>Spark kids curiosity with Happy Meal Readers</h1>
+      </div>
+      <div
+        style="
+          position: absolute;
+          top: 557px;
+          left: 100px;
+          width: 548px;
+          font-size: 22px;
+        "
+      >
+        <p>
+          Happy Meal Readers is part of McDonald commitment in bringing to life
+          Truly Together moments by encouraging reading as a fun family
+          activity. It is a cherished part of Happy Meal, offering a unique
+          choice of books by Cressida Cowell with every Happy Meal. The Tiny
+          Detectives who live in a bookcase are here to find answers to BIG
+          questions, looking to Spark kids curiosity. Meet them soon!
+        </p>
+      </div>
+      <div
+        style="
+          background-color: #ffbc0d;
+          width: 55%;
+          height: 797px;
+          position: absolute;
+          top: 0px;
+          right: 0;
+        "
+      >
+        <img
+          src="image/gif.gif"
+          alt=""
+          style="width: 800px; height: 760px; margin: 20px"
+        />
+      </div>
+    </div>
+
+    <div class="con3">
+      <h9 style="position: absolute; top: 59px; left: 150px; font-size: 40px">
+        Select City
+      </h9>
+      <select
+        style="
+          position: absolute;
+          top: 130px;
+          left: 150px;
+          background-color: #ffbc0d;
+          width: 290px;
+          height: 35px;
+          border-radius: 17px;
+        "
+      >
+        <option>Delhi</option>
+        <option>Agra</option>
+        <option>Chandigarh</option>
+        <option>Gurugram</option>
+        <option>Guwahati</option>
+        <option>Jaipur</option>
+      </select>
+    </div>
+    <img
+      src="image/stores-background.webp"
+      style="
+        position: absolute;
+        top: 2979px;
+        left: 500px;
+        height: 730px;
+        width: 1016px;
+      "
+    />
+
+    <div class="con4">
+      <div
+        style="
+          background-color: #ffbc0d;
+          width: 100%;
+          height: 66px;
+          position: absolute;
+        "
+      ></div>
+      <img
+        src="../Downloads/border1.jpg"
+        alt=""
+        style="width: 750px; top: 66px; position: absolute; height: 60px"
+      />
+      <img
+        src="image/logo-mcdelivery.svg"
+        alt=""
+        style="position: absolute; top: 150px; left: 100px"
+      />
+      <div
+        class="con2"
+        style="
+          position: absolute;
+          top: 301px;
+          left: 100px;
+          width: 548px;
+          font-size: 31px;
+        "
+      >
+        <h1>Order for Home-Delivered Smiles</h1>
+      </div>
+      <div
+        style="
+          position: absolute;
+          top: 571px;
+          left: 100px;
+          width: 548px;
+          font-size: 22px;
+        "
+      >
+        <p style="color: #a48366">We deliver to your doorstep</p>
+        <p>
+          McDelivery allows you to experience delicious McDonalds food from the
+          comfort of your sofa at home or cubicle in office. All orders are
+          delivered quickly and efficiently, allowing you the peace of mind to
+          know that smiles-inducing food is never too far.!
+        </p>
+      </div>
+      <div
+        style="
+          background-color: #ffbc0d;
+          width: 55%;
+          height: 797px;
+          position: absolute;
+          top: 0px;
+          right: 0;
+        "
+      >
+        <img
+          src="image/image_processing20220818-18539-a1mg2v.gif"
+          alt="delivery boy"
+          style="width: 800px; height: 760px; margin: 20px"
+        />
+      </div>
+    </div>
+
+    <div class="end">
+      <img
+        src="image/McDonald's_.png"
+        style="
+          position: absolute;
+          height: 30px;
+          width: 35px;
+          left: 492px;
+          top: 7px;
+        "
+      />
+      <p style="position: absolute; left: 545px">
+        2021-24 McDonald's. All Rights Reserved.
+      </p>
+      <p
+        style="
+          position: absolute;
+          left: 417px;
+          top: 31px;
+        "
+      >
+        Connaught Plaza Restaurants Private Limited (licensee of McDonald's in
+        North & East India)
+      </p>
+
+      <p
+        style="
+          position: absolute;
+          left: 164px;
+          top: 122px;
+        "
+      >
+        Disclaimer: Connaught Plaza Restaurants Private Limited (CPRL) owns and
+        operates McDonalds restaurants in Northern & Eastern Part of India being
+        the sole development licensee under Master Franchisee Relationship with
+        McDonald’s USA. CPRL does not provide/offer any franchisee on behalf of
+        McDonald and/or similar arrangement with third party. We earnestly
+        request public at large to beware of such rackets and not to fall prey to
+        any such fraudulent scheme/s and report to the appropriate authorities.
+      </p>
+    </div>
+
+    <script>
+      var myIndex = 0;
+      carousel();
+
+      function carousel() {
+        var i;
+        var x = document.getElementsByClassName("mySlides");
+        for (i = 0; i < x.length; i++) {
+          x[i].style.display = "none";
+        }
+        myIndex++;
+        if (myIndex > x.length) {
+          myIndex = 1;
+        }
+        x[myIndex - 1].style.display = "block";
+        setTimeout(carousel, 2000); // Change image every 2 seconds
+      }
+    </script>
+  </body>
+</html>
